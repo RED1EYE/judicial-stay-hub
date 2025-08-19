@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Institute color palette
+				institute: {
+					green: 'hsl(var(--institute-green))',
+					sage: 'hsl(var(--institute-sage))',
+					peach: 'hsl(var(--institute-peach))',
+					cream: 'hsl(var(--institute-cream))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

@@ -8,33 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Institute color palette - Professional & Academic */
+    --background: 32 15% 97%;
+    --foreground: 150 30% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 150 30% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 150 30% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep forest green as primary */
+    --primary: 150 30% 20%;
+    --primary-foreground: 32 15% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Sage green as secondary */
+    --secondary: 95 15% 65%;
+    --secondary-foreground: 150 30% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Warm peach as accent */
+    --accent: 25 45% 80%;
+    --accent-foreground: 150 30% 15%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Muted tones */
+    --muted: 32 10% 92%;
+    --muted-foreground: 150 15% 45%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 32 15% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 95 15% 85%;
+    --input: 95 15% 90%;
+    --ring: 150 30% 20%;
+
+    /* Custom design tokens */
+    --institute-green: 150 30% 20%;
+    --institute-sage: 95 15% 65%;
+    --institute-peach: 25 45% 80%;
+    --institute-cream: 32 15% 97%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--institute-green)), hsl(var(--institute-sage)));
+    --gradient-accent: linear-gradient(180deg, hsl(var(--institute-peach)), hsl(var(--institute-cream)));
+    
+    /* Shadows */
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--institute-green) / 0.15);
+    --shadow-card: 0 2px 10px -2px hsl(var(--institute-green) / 0.1);
 
     --radius: 0.5rem;
 
