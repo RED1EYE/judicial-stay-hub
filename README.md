@@ -1,24 +1,55 @@
+Hostel Allocation System
 
-## Project info
+A web-based system designed to streamline the process of hostel room allocation for students. The project ensures transparency, efficiency, and fairness in assigning hostels/rooms while reducing manual effort for administrators.
 
-## What technologies are used for this project?
+🚀 Features
 
-This project is built with:
+Student Registration – Students can register and apply for hostel rooms.
+
+Admin Dashboard – Admins can manage hostels, rooms, and allocations.
+
+Automatic Allocation – Fair allocation algorithm based on availability and preferences.
+
+Room Management – Track available and occupied rooms.
+
+Search & Filter – Easily find students and their allocated rooms.
+
+Responsive UI – Works seamlessly across devices.
+
+🛠️ Tech Stack
 
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
+⚡ Installation & Setup
 
-## How can I deploy this project?
+Clone the repository:
 
-Simply open [Lovable](https://lovable.dev/projects/4ace2358-eb58-4b56-8fed-e24ff914a4fc) and click on Share -> Publish.
+git clone https://github.com/your-username/hostel-allocation.git
+cd hostel-allocation
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
+Install dependencies (if applicable):
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+npm install   # for Node.js
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+Setup database:
+
+Import the SQL file from /database/hostel.sql
+
+Configure DB credentials in config.js or .env file
+
+Run the server:
+
+npm start
+
+
+Open in browser:
+
+http://localhost:3000
+
+
+
